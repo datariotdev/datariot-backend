@@ -1,5 +1,13 @@
 # Datariot Backend
 
+> Backend infrastructure for Datariot — Supabase, database schemas, authentication and server functions.
+
+[**Datariot**](https://datariot.xyz) · [**Documentation**](https://info.datariot.xyz) · [**GitHub**](https://github.com/datariotdev)
+
+**Project:** [https://datariot.xyz](https://datariot.xyz)
+
+---
+
 Supabase schema, migrations, policies and server-side infrastructure.
 
 ## Current production
