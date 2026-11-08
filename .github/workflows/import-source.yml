@@ -1,5 +1,8 @@
 name: Import staged source
 on:
+  push:
+    paths:
+      - '.github/workflows/import-source.yml'
   workflow_dispatch:
 permissions:
   contents: write
