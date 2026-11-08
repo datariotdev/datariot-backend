@@ -1,0 +1,21 @@
+name: Import staged source
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage source
+        run: |
+          git clone --depth 1 https://github.com/datariotdev/datariot-site.git /tmp/source
+          mkdir -p reference scripts; cp -a /tmp/source/db_schema.json /tmp/source/full_db_schema.json reference/; cp -a /tmp/source/scripts/seed_debates.js scripts/; echo 'SQL schemas are references, not runnable migrations. Do not apply automatically.' > MIGRATION_STATUS.txt
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Import staged project source"
+          git push
