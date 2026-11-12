@@ -1,16 +1,7 @@
-create schema if not exists private;
-grant usage on schema private to authenticated;
-
-create index if not exists chat_participants_user_id_chat_id_idx
-    on public.chat_participants (user_id, chat_id);
-
-create index if not exists messages_chat_id_created_at_idx
-    on public.messages (chat_id, created_at desc);
-
-create function private.get_or_create_direct_chat(recipient_id uuid)
+create function public.get_or_create_direct_chat(recipient_id uuid)
 returns uuid
 language plpgsql
-security definer
+security invoker
 set search_path = ''
 as $$
 declare
@@ -47,7 +38,9 @@ begin
     limit 1;
 
     if direct_chat_id is null then
-        insert into public.chats (type) values ('direct') returning id into direct_chat_id;
+        direct_chat_id := pg_catalog.gen_random_uuid();
+        -- The chat becomes readable under RLS when the membership rows exist.
+        insert into public.chats (id, type) values (direct_chat_id, 'direct');
         insert into public.chat_participants (chat_id, user_id)
         values (direct_chat_id, sender_id), (direct_chat_id, recipient_id);
     end if;
@@ -56,34 +49,5 @@ begin
 end;
 $$;
 
-create function public.get_or_create_direct_chat(recipient_id uuid)
-returns uuid
-language sql
-security invoker
-set search_path = ''
-as $$
-    select private.get_or_create_direct_chat(recipient_id);
-$$;
-
-revoke execute on function private.get_or_create_direct_chat(uuid) from public, anon;
 revoke execute on function public.get_or_create_direct_chat(uuid) from public, anon;
-grant execute on function private.get_or_create_direct_chat(uuid) to authenticated;
 grant execute on function public.get_or_create_direct_chat(uuid) to authenticated;
-
--- Conversation membership is created through the authenticated transaction above.
-drop policy if exists "Users can create chats" on public.chats;
-drop policy if exists "Users can add participants" on public.chat_participants;
-drop policy if exists "Users can insert participants" on public.chat_participants;
-drop policy if exists "Users can update their own participant details" on public.chat_participants;
-
-do $$
-begin
-    if exists (select 1 from pg_catalog.pg_publication where pubname = 'supabase_realtime')
-       and not exists (
-           select 1 from pg_catalog.pg_publication_tables
-           where pubname = 'supabase_realtime' and schemaname = 'public' and tablename = 'messages'
-       ) then
-        alter publication supabase_realtime add table public.messages;
-    end if;
-end;
-$$;
