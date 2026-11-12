@@ -13,7 +13,7 @@ Deno.serve(async req=>{
  let input:any;try{input=await req.json()}catch{return reply({error:"invalid_json"},400)}
  if(typeof input?.id!=="string"||!/^[0-9a-f-]{36}$/i.test(input.id)||typeof input?.transcript!=="string"||input.transcript.trim().length<80||input.transcript.length>16000)return reply({error:"id_and_transcript_required"},400);
  const db=createClient(url,service,{auth:{persistSession:false}});
- const {data:video}=await db.from("discovery_candidates").select("id,title,status").eq("id",input.id).eq("source","tiktok").single();
+ const {data:video}=await db.from("discovery_candidates").select("id,title,status").eq("id",input.id).in("source",["tiktok","youtube_shorts"]).single();
  if(!video||!["discovered","analyzed"].includes(video.status))return reply({error:"candidate_not_eligible"},409);
  const prompt=`Evaluate an English educational short-form video based ONLY on the supplied transcript. Do not claim to have watched the video. Score 0-100 using educational value (30), clarity (25), originality (15), evidence and factual care (20), audience relevance (10). If transcript is not English, language must be "other". Return JSON only with integer score, language ("en" or "other"), explanation (max 400 chars), fact_check_needed boolean. Do not assert rights or permission. Title: ${video.title}\nTranscript:\n${input.transcript}`;
  let response:Response;
