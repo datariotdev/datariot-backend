@@ -25,7 +25,7 @@ existing rights, review and publication workflow.
 3. As the database owner, run `select public.queue_discovery_hn_scan('<project origin>');`
    and verify the resulting job is `completed` in `public.discovery_jobs`.
    The HTTP response is available in `net._http_response` using the returned request ID.
-4. To run daily, enable `pg_cron` and schedule the same SQL call with
+4. To run daily, apply the `enable_discovery_cron` migration and schedule the same SQL call with
    `cron.schedule('datariot-discovery-hn', '0 6 * * *', '<SQL call>')`.
    The schedule can be stopped with `cron.unschedule('datariot-discovery-hn')`.
 
