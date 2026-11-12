@@ -1,8 +1,7 @@
 const day = 86_400;
 const minimumAgeSeconds = 180 * day;
-const oldestSearchYear = 2018;
 const pageSize = 200;
-const maxPagesPerYear = 5;
+const maxPagesPerWindow = 5;
 const searchUrl = "https://hn.algolia.com/api/v1/search";
 const recommendation =
   /\b(?:recommend (?:you |to )?(?:watch(?:ing)?|check(?:ing)? out)|worth (?:a watch|watching|checking out)|must[- ]watch|(?:great|excellent|fantastic|helpful|good|interesting|useful) (?:video|clip|demo|explainer|explanation|overview|breakdown|tutorial|points)|does a (?:great|good|excellent) job (?:of )?explain(?:ing)?|explains? (?:it|this) (?:well|clearly)|well explained|check (?:this|it) out)\b/i;
@@ -25,7 +24,10 @@ interface Reference {
   posted_at: string;
 }
 
+export type VideoSource = "tiktok" | "youtube_shorts";
+
 export interface Candidate {
+  source: VideoSource;
   source_video_id: string;
   source_url: string;
   title: string;
@@ -67,14 +69,32 @@ function plainText(html: string) {
   return decodeHtml(html.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
 }
 
-function tiktokLink(rawHref: string) {
+function videoLink(rawHref: string) {
   const href = decodeHtml(rawHref);
+  const short =
+    /^https:\/\/(?:www\.|m\.)?youtube\.com\/shorts\/([a-z0-9_-]{11})\/?(?:[?#][^\s]*)?$/i
+      .exec(href);
+  if (short) {
+    const id = short[1];
+    return {
+      source: "youtube_shorts" as const,
+      id,
+      url: `https://www.youtube.com/shorts/${id}`,
+      title: `YouTube Short ${id}`,
+    };
+  }
+
   const match =
     /^https:\/\/(?:www\.|m\.)?tiktok\.com\/@([a-z0-9_.]{1,32})\/video\/(\d{15,22})\/?(?:[?#][^\s]*)?$/i
       .exec(href);
   if (!match) return null;
   const [, handle, id] = match;
-  return { handle, id, url: `https://www.tiktok.com/@${handle}/video/${id}` };
+  return {
+    source: "tiktok" as const,
+    id,
+    url: `https://www.tiktok.com/@${handle}/video/${id}`,
+    title: `TikTok video by @${handle}`,
+  };
 }
 
 function isRecommendation(before: string, after: string) {
@@ -90,7 +110,9 @@ export function findCandidates(
   now = Date.now(),
 ): Candidate[] {
   const videos = new Map<string, Mentions>();
-  const sorted = comments.toSorted((a, b) => a.created_at_i - b.created_at_i);
+  const sorted = comments.toSorted((a, b) =>
+    a.created_at_i - b.created_at_i || a.objectID.localeCompare(b.objectID)
+  );
   for (const comment of sorted) {
     if (
       !/^\d+$/.test(comment.objectID) || !comment.author ||
@@ -108,22 +130,24 @@ export function findCandidates(
     ];
     const postedAt = new Date(comment.created_at_i * 1000).toISOString();
     for (const [index, anchor] of anchors.entries()) {
-      const link = tiktokLink(anchor[1]);
+      const link = videoLink(anchor[1]);
       if (!link) continue;
-      let mentions = videos.get(link.id);
+      const key = `${link.source}:${link.id}`;
+      let mentions = videos.get(key);
       if (!mentions) {
         mentions = {
           candidate: {
+            source: link.source,
             source_video_id: link.id,
             source_url: link.url,
-            title: `TikTok video by @${link.handle}`,
+            title: link.title,
             first_reference_at: postedAt,
             recommendation_count: 0,
             recommendation_evidence: [],
           },
           recommendedBy: new Map(),
         };
-        videos.set(link.id, mentions);
+        videos.set(key, mentions);
       }
       const author = comment.author.toLowerCase();
       if (mentions.recommendedBy.has(author)) continue;
@@ -162,15 +186,19 @@ export function findCandidates(
     );
 }
 
-async function searchYear(
-  year: number,
+interface SearchWindow {
+  query: string;
+  start: number;
+  end: number;
+}
+
+async function searchWindow(
+  { query, start, end }: SearchWindow,
   fetcher: typeof fetch,
 ): Promise<Comment[]> {
-  const start = Date.UTC(year, 0, 1) / 1000;
-  const end = Date.UTC(year + 1, 0, 1) / 1000;
   const url = new URL(searchUrl);
   url.search = new URLSearchParams({
-    query: "tiktok.com",
+    query,
     tags: "comment",
     numericFilters: `created_at_i>=${start},created_at_i<${end}`,
     hitsPerPage: String(pageSize),
@@ -179,7 +207,7 @@ async function searchYear(
   }).toString();
 
   const comments: Comment[] = [];
-  for (let page = 0; page < maxPagesPerYear; page++) {
+  for (let page = 0; page < maxPagesPerWindow; page++) {
     url.searchParams.set("page", String(page));
     const response = await fetcher(url, {
       signal: AbortSignal.timeout(10_000),
@@ -190,7 +218,7 @@ async function searchYear(
       !Array.isArray(result.hits) || !Number.isSafeInteger(result.nbHits) ||
       !Number.isSafeInteger(result.nbPages)
     ) throw new Error("hn_search_invalid_response");
-    if (result.nbHits > pageSize * maxPagesPerYear) {
+    if (result.nbHits > pageSize * maxPagesPerWindow) {
       throw new Error("hn_search_result_limit");
     }
     comments.push(...result.hits);
@@ -199,21 +227,43 @@ async function searchYear(
   throw new Error("hn_search_result_limit");
 }
 
+const searchSources = {
+  tiktok: { query: "tiktok.com", firstYear: 2018, monthsPerWindow: 12 },
+  youtube_shorts: {
+    query: "youtube.com/shorts",
+    firstYear: 2020,
+    monthsPerWindow: 6,
+  },
+} satisfies Record<
+  VideoSource,
+  { query: string; firstYear: number; monthsPerWindow: number }
+>;
+
 export async function searchHackerNews(
   now: number,
+  source: VideoSource,
   fetcher = fetch,
 ): Promise<Comment[]> {
-  const currentYear = new Date(now).getUTCFullYear();
-  const years = Array.from(
-    { length: currentYear - oldestSearchYear + 1 },
-    (_, i) => oldestSearchYear + i,
-  );
+  const { query, firstYear, monthsPerWindow } = searchSources[source];
+  const windows: SearchWindow[] = [];
+  for (
+    let month = 0;
+    Date.UTC(firstYear, month, 1) <= now;
+    month += monthsPerWindow
+  ) {
+    windows.push({
+      query,
+      start: Date.UTC(firstYear, month, 1) / 1000,
+      end: Date.UTC(firstYear, month + monthsPerWindow, 1) / 1000,
+    });
+  }
+
   const comments: Comment[] = [];
-  for (let i = 0; i < years.length; i += 4) {
+  for (let i = 0; i < windows.length; i += 4) {
     const batch = await Promise.all(
-      years.slice(i, i + 4).map((year) => searchYear(year, fetcher)),
+      windows.slice(i, i + 4).map((window) => searchWindow(window, fetcher)),
     );
-    for (const year of batch) comments.push(...year);
+    for (const window of batch) comments.push(...window);
   }
   return comments;
 }

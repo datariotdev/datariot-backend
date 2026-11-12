@@ -1,6 +1,7 @@
 # Discovery from Hacker News
 
-The scan searches Hacker News comments for canonical TikTok video links. The first
+The scan searches Hacker News comments for canonical TikTok video and YouTube
+Shorts links. The first
 dated reference must be at least 180 days old. English phrases near a link are
 used as recommendation signals, and one Hacker News account counts once per
 video. A moderator can open a source comment at
@@ -16,8 +17,9 @@ existing rights, review and publication workflow.
 
 ## Deployment and operation
 
-1. Apply the `discovery_hn_recommendations` migration on a project with the
-   existing Discovery tables and `pg_net`.
+1. Apply the Discovery migrations on a project with the existing Discovery
+   tables and `pg_net`. The `discovery_youtube_shorts` migration allows the
+   same ingest function to record Shorts.
 2. Apply the `discovery_hn_gateway_auth` migration. Store the project's legacy
    **anon** JWT in Vault as `datariot_discovery_anon_jwt`. Deploy both Edge
    Functions with gateway JWT verification enabled. The scan also requires
@@ -30,5 +32,5 @@ existing rights, review and publication workflow.
    The schedule can be stopped with `cron.unschedule('datariot-discovery-hn')`.
 
 The scan uses Hacker News search data and does not fetch or upload media.
-Shortened TikTok URLs, links without enough context, and other video providers
+Shortened TikTok URLs, standard YouTube watch URLs, and links without enough context
 are outside this adapter's current coverage.
