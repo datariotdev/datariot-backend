@@ -1,0 +1,2802 @@
+[
+  {
+    "number": 1,
+    "group": "network",
+    "variant": 0,
+    "title": "The Parcel That Found Home",
+    "scenes": [
+      "Pip the robot writes a message, but the internet cannot send the whole thing as one enormous parcel.",
+      "So Pip splits it into small packets. Each packet carries information that helps it reach the destination.",
+      "The packets may travel along different routes. At the other end, software puts the message back together.",
+      "The internet is a network of networks. Many small deliveries can become one big conversation."
+    ],
+    "duration": 30.384,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1301659,
+    "sha256": "2f2f362b155c077b8b8cc5e5c5c8db15271c2ea5b93571d30607d32cfbb6bc1d",
+    "scene_seconds": [
+      7.29,
+      8.082,
+      7.65,
+      7.362
+    ]
+  },
+  {
+    "number": 2,
+    "group": "network",
+    "variant": 1,
+    "title": "The Name Shop",
+    "scenes": [
+      "Mochi remembers the name of a website, but the delivery robot needs a numerical address.",
+      "A DNS resolver helps translate that familiar name into an IP address the computer can use.",
+      "Sometimes the answer is already cached nearby. Otherwise, the resolver asks other DNS servers for help.",
+      "A website name is like a label in an address book. DNS helps find where to send the request."
+    ],
+    "duration": 31.032,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1146073,
+    "sha256": "799aabdfa3c27357f3dac1f905ab4a5f638b3153acef928dfa76af6085fa687d",
+    "scene_seconds": [
+      7.098,
+      7.938,
+      8.61,
+      7.386
+    ]
+  },
+  {
+    "number": 3,
+    "group": "network",
+    "variant": 2,
+    "title": "The Busy Crossing",
+    "scenes": [
+      "Two tiny delivery bots arrive at a junction. Which network should each packet visit next?",
+      "The router checks destination addresses and uses its routing information to choose a next step.",
+      "It does not need a map of every cable on Earth. It needs a useful next hop.",
+      "Routers pass packets between networks, one decision at a time. A long journey becomes many local choices."
+    ],
+    "duration": 28.656,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1233808,
+    "sha256": "ed02bbd6d95fa681390a251c9146ea89caa6da85230c4ae6a72955faa6206eae",
+    "scene_seconds": [
+      6.93,
+      7.146,
+      6.018,
+      8.562
+    ]
+  },
+  {
+    "number": 4,
+    "group": "network",
+    "variant": 3,
+    "title": "The Missing Envelope",
+    "scenes": [
+      "Pip sends a drawing, but one packet disappears before it reaches Mochi. The picture has a gap.",
+      "With TCP, the receiver can acknowledge delivered data, and missing data can be sent again.",
+      "TCP also helps present the bytes in the right order, even when packets arrive out of order.",
+      "Reliable delivery takes extra coordination. The internet can recover from a missing piece instead of starting everything again."
+    ],
+    "duration": 32.088,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1342119,
+    "sha256": "b3d0037bab3684e25a2b502a84b174d77c010dc54d43afb75a1e687cedbcaf7e",
+    "scene_seconds": [
+      7.818,
+      7.338,
+      7.458,
+      9.474
+    ]
+  },
+  {
+    "number": 5,
+    "group": "network",
+    "variant": 4,
+    "title": "The Secret Tunnel",
+    "scenes": [
+      "Mochi wants to visit a website without strangers reading the message along the way.",
+      "HTTPS uses encryption to protect data travelling between the browser and the server.",
+      "Certificates help the browser check the server's identity. But a secure connection does not guarantee an honest website.",
+      "Look at both the connection and the destination. A locked tunnel can still lead to a dishonest shop."
+    ],
+    "duration": 29.376,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1072042,
+    "sha256": "253545f222bb9accd86d78515a08a62f51bd46a34f227ffa855bf1c79628a1b3",
+    "scene_seconds": [
+      6.282,
+      7.41,
+      8.49,
+      7.194
+    ]
+  },
+  {
+    "number": 6,
+    "group": "network",
+    "variant": 5,
+    "title": "The Nearby Copy",
+    "scenes": [
+      "Pip asks the same question twice. The second answer arrives much faster. Did the cable suddenly become quicker?",
+      "A cache stores a nearby copy of data that may be needed again.",
+      "The computer can reuse that copy instead of downloading or calculating everything from the beginning.",
+      "Caching saves work, but old copies can become stale. Fast answers still need a way to stay fresh."
+    ],
+    "duration": 29.304,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1102680,
+    "sha256": "e806e309318d0510b67ce33d9b1b05bfd27e829ca0d631a9469091fb7a89d2f5",
+    "scene_seconds": [
+      8.97,
+      5.346,
+      7.218,
+      7.77
+    ]
+  },
+  {
+    "number": 7,
+    "group": "network",
+    "variant": 6,
+    "title": "The Wide Road",
+    "scenes": [
+      "Mochi makes the road wider, yet the first parcel still takes time to arrive. What happened?",
+      "Bandwidth describes how much data a connection can carry per second. Latency describes delay.",
+      "A wider road can carry more parcels together without making the journey itself shorter.",
+      "Speed has more than one meaning. A video download and a live conversation can need different improvements."
+    ],
+    "duration": 28.752,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1232579,
+    "sha256": "58e73dc67e0cbbdb86ae8a78cdc85486a5bec3a1ed68772c08f6bb907ff31ef2",
+    "scene_seconds": [
+      7.242,
+      7.026,
+      6.666,
+      7.818
+    ]
+  },
+  {
+    "number": 8,
+    "group": "network",
+    "variant": 7,
+    "title": "The Radio Picnic",
+    "scenes": [
+      "Pip takes a laptop into the garden. No cable follows it, but the messages still arrive.",
+      "Wi-Fi carries data using radio waves between the device and a nearby access point.",
+      "The access point connects that wireless link to a wider network, often through a router.",
+      "Wi-Fi is the local wireless connection. The internet is the much larger network it may connect you to."
+    ],
+    "duration": 28.608,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1168142,
+    "sha256": "c22d59003b3bdf1eff30ecfcb81e54775fe3d282bb2f5bbe558943677bc7057c",
+    "scene_seconds": [
+      6.834,
+      6.906,
+      6.81,
+      8.058
+    ]
+  },
+  {
+    "number": 9,
+    "group": "network",
+    "variant": 8,
+    "title": "The Two Doors",
+    "scenes": [
+      "Mochi finds two doors on the same server. One leads to the web shop, the other to mail.",
+      "An IP address identifies a network destination. A port number helps identify a service at that destination.",
+      "Many applications can use the same device because the network keeps track of these separate conversations.",
+      "Think of the address as the building and the port as a numbered door inside the network conversation."
+    ],
+    "duration": 30.216,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1313530,
+    "sha256": "29057b82522bad61fa176f93426ee0d5a40d821e1368579aabf874852653dea3",
+    "scene_seconds": [
+      6.978,
+      8.634,
+      7.794,
+      6.81
+    ]
+  },
+  {
+    "number": 10,
+    "group": "network",
+    "variant": 9,
+    "title": "The Gatekeeper's List",
+    "scenes": [
+      "A strange packet knocks on Pip's network gate. Should the robot let every visitor walk straight in?",
+      "A firewall checks network traffic against rules. Some traffic is allowed, and some is blocked.",
+      "Rules can consider details such as addresses, ports, and connection state. They must match the network's needs.",
+      "A firewall is one layer of protection. Sensible rules and updated software still matter behind the gate."
+    ],
+    "duration": 31.848,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1345361,
+    "sha256": "763214f59799bc71d502397517002030ae2c70f4f096af5fed2c6908b978c403",
+    "scene_seconds": [
+      7.194,
+      7.458,
+      9.042,
+      8.154
+    ]
+  },
+  {
+    "number": 11,
+    "group": "computer",
+    "variant": 0,
+    "title": "The Desk and the Cupboard",
+    "scenes": [
+      "Pip puts every notebook on a tiny desk. Soon there is no room left to work.",
+      "RAM is the computer's working memory. Storage keeps files for longer, including when the power is off.",
+      "Ordinary RAM loses its contents without power. Saving a document writes a lasting copy to storage.",
+      "A larger desk helps with active work. A larger cupboard helps keep more things. Computers need both."
+    ],
+    "duration": 30.696,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1154784,
+    "sha256": "7fc3bacbe4ea3b277946d100cb229f73655e8ed860e00c158ba6419c43413191",
+    "scene_seconds": [
+      6.138,
+      8.202,
+      8.202,
+      8.154
+    ]
+  },
+  {
+    "number": 12,
+    "group": "computer",
+    "variant": 1,
+    "title": "The Recipe Runner",
+    "scenes": [
+      "Mochi gives a robot a recipe. It follows the instructions, one useful operation after another.",
+      "A CPU executes instructions and coordinates much of the computer's general work.",
+      "Its cores can handle separate streams of work, but programs must be designed to benefit from them.",
+      "More cores do not make every task equally faster. Some recipes still contain steps that must happen in order."
+    ],
+    "duration": 30.432,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1206816,
+    "sha256": "07490fd8fa25c33a9598758b93b02b83c2895ade67d3940002605d3f47862c3f",
+    "scene_seconds": [
+      7.914,
+      7.098,
+      7.026,
+      8.394
+    ]
+  },
+  {
+    "number": 13,
+    "group": "computer",
+    "variant": 2,
+    "title": "The Paint Crew",
+    "scenes": [
+      "Pip hires one artist to colour thousands of tiles. The artist is clever, but the wall takes ages.",
+      "A GPU can perform many similar calculations in parallel. That suits graphics and some scientific or AI tasks.",
+      "It still needs data and instructions. Not every program can be turned into thousands of independent little jobs.",
+      "Choose the right worker for the work. A paint crew shines when many tiles can be painted together."
+    ],
+    "duration": 33.048,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1295065,
+    "sha256": "27f1546f77e9688d8870c323ff2363e793741a18f580ac569afe0ae5b62066f0",
+    "scene_seconds": [
+      7.842,
+      9.45,
+      8.73,
+      7.026
+    ]
+  },
+  {
+    "number": 14,
+    "group": "computer",
+    "variant": 3,
+    "title": "The Fast Little Drawer",
+    "scenes": [
+      "Mochi keeps walking to a distant shelf for the same tool. Pip adds a drawer beside the desk.",
+      "A CPU cache stores small amounts of frequently needed data close to the processor.",
+      "Fetching nearby data is often faster than waiting for data from farther away in the memory system.",
+      "The drawer is small, so it cannot hold everything. Good organisation helps the processor spend less time waiting."
+    ],
+    "duration": 29.832,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1117836,
+    "sha256": "3f03c09de48444b5d62cb1d5b7264fbc91fe59d69341eae6749f09522f071864",
+    "scene_seconds": [
+      7.194,
+      7.05,
+      7.386,
+      8.202
+    ]
+  },
+  {
+    "number": 15,
+    "group": "computer",
+    "variant": 4,
+    "title": "The Tiny Light Switch",
+    "scenes": [
+      "Pip needs a simple way to record two possibilities. A little lamp can be off or on.",
+      "A bit represents one of two values, usually written as zero and one.",
+      "Groups of bits can represent numbers, text, images, or instructions, depending on how software interprets them.",
+      "Eight bits make a byte. Simple choices become powerful when we agree on how to combine and read them."
+    ],
+    "duration": 29.76,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1172768,
+    "sha256": "0c8cf44c0f1c738fd87b0e79f60f38f0d93b106e2293aff4c9dddd8048b8116e",
+    "scene_seconds": [
+      6.762,
+      5.994,
+      9.258,
+      7.746
+    ]
+  },
+  {
+    "number": 16,
+    "group": "computer",
+    "variant": 5,
+    "title": "The Stage Manager",
+    "scenes": [
+      "Three robot musicians all want the microphone, the screen, and the same notebook. The stage becomes chaos.",
+      "An operating system manages resources such as processing time, memory, files, and devices.",
+      "It provides services that applications use, and it helps keep separate programs from interfering with each other.",
+      "The operating system is the stage manager. Applications can perform because something coordinates the shared equipment."
+    ],
+    "duration": 33.792,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1323185,
+    "sha256": "109c7505fd0e6c614221c568233b6929dd78125dc2bd0419b0e5f51e08037bc3",
+    "scene_seconds": [
+      8.682,
+      8.322,
+      8.178,
+      8.61
+    ]
+  },
+  {
+    "number": 17,
+    "group": "computer",
+    "variant": 6,
+    "title": "The Saved Drawing",
+    "scenes": [
+      "Mochi finishes a drawing and closes the app. Tomorrow the picture is gone. Was remembering the same as saving?",
+      "While editing, an application may keep changes in working memory. Saving writes them to a file.",
+      "Some apps save automatically, but the timing and destination depend on the app.",
+      "Before closing important work, check that it was saved where you expect. A finished thought needs a lasting home."
+    ],
+    "duration": 30.36,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1137842,
+    "sha256": "0c255520f91ac81f23f617f474f7cfba7a8f6ce325f8f1ef864fa1d1cafd1936",
+    "scene_seconds": [
+      8.586,
+      7.266,
+      6.162,
+      8.346
+    ]
+  },
+  {
+    "number": 18,
+    "group": "computer",
+    "variant": 7,
+    "title": "The Library With Labels",
+    "scenes": [
+      "Pip puts a thousand files in one pile. Finding the right story becomes the hardest job of all.",
+      "A file system organises stored data into files and directories, with names and other information.",
+      "The folder you see is an organisation tool, not necessarily one continuous physical box on the drive.",
+      "Good names and folders help humans too. Storage is more useful when both the computer and the reader can find things."
+    ],
+    "duration": 32.208,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1209525,
+    "sha256": "94908fe5a17a8ad4ceec598108db8c35e9446be354619a862875853ff77edfa9",
+    "scene_seconds": [
+      7.434,
+      7.602,
+      8.154,
+      9.018
+    ]
+  },
+  {
+    "number": 19,
+    "group": "computer",
+    "variant": 8,
+    "title": "The Hot Robot",
+    "scenes": [
+      "Mochi works so hard that the little robot grows warm. Pip adds a fan and clears the air path.",
+      "Computers turn electrical energy into useful work and heat. Cooling carries some of that heat away.",
+      "If temperatures become too high, hardware may reduce performance to protect itself.",
+      "A faster fan is not a magic upgrade. Clear airflow and a suitable workload help the whole system stay comfortable."
+    ],
+    "duration": 30.432,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1483781,
+    "sha256": "7443edf1d067e0e468f49dd311557300e6f0db95f43f9413f2a008693a0b765c",
+    "scene_seconds": [
+      7.314,
+      7.434,
+      6.69,
+      8.994
+    ]
+  },
+  {
+    "number": 20,
+    "group": "computer",
+    "variant": 9,
+    "title": "The Spare Copy",
+    "scenes": [
+      "Pip carefully saves a story. Then the only drive breaks. Saving was helpful, but the story still disappears.",
+      "A backup is another copy that can help restore data after loss, damage, or a mistake.",
+      "A copy on the same failing device may disappear too. Separate locations reduce some shared risks.",
+      "Saving keeps your latest work. Backing up gives that work another chance when its first home fails."
+    ],
+    "duration": 32.088,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1182483,
+    "sha256": "752b79c200a1b709407b3aeb3a1721a082cd683a2c8f0f3f7fe0a476fd8c2329",
+    "scene_seconds": [
+      8.994,
+      7.314,
+      7.986,
+      7.794
+    ]
+  },
+  {
+    "number": 21,
+    "group": "space",
+    "variant": 0,
+    "title": "The Falling Moon",
+    "scenes": [
+      "Mochi asks why the Moon does not simply fall down to Earth. Pip draws a curved path.",
+      "Gravity pulls the Moon toward Earth, while its sideways motion keeps carrying it forward.",
+      "An orbit is continuous falling around another body, rather than falling straight onto its surface.",
+      "The Moon really is falling. Its path keeps missing the ground. Motion and gravity make the dance possible."
+    ],
+    "duration": 29.136,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1211944,
+    "sha256": "f1e37b801fcb76ffcc97607e5f5e00969ea25f0bfc25e9b4cd050b362229a91c",
+    "scene_seconds": [
+      7.098,
+      6.666,
+      7.218,
+      8.154
+    ]
+  },
+  {
+    "number": 22,
+    "group": "space",
+    "variant": 1,
+    "title": "The Floating Lunch",
+    "scenes": [
+      "Pip watches an astronaut's sandwich float. Has gravity vanished from the space station?",
+      "Gravity still acts strongly there. The station and everything inside it are falling around Earth together.",
+      "That shared free fall makes objects appear weightless relative to the station.",
+      "Floating does not mean gravity is absent. Sometimes everything around you is falling at the same time."
+    ],
+    "duration": 27.336,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1136398,
+    "sha256": "024cd3a6fa8bb5bc5bb1182804973f8a9a2bf0d366b450b0a144aa6f6eb23be4",
+    "scene_seconds": [
+      6.69,
+      7.386,
+      5.922,
+      7.338
+    ]
+  },
+  {
+    "number": 23,
+    "group": "space",
+    "variant": 2,
+    "title": "The Slow Sunbeam",
+    "scenes": [
+      "Mochi waves at the Sun and expects an instant answer. Pip starts a very patient clock.",
+      "Light travels extremely fast, but the distance from the Sun to Earth is enormous.",
+      "Sunlight takes about eight minutes to reach us. The sunlight arriving now began its journey earlier.",
+      "Looking into space also means looking into the past. Even the nearest star sends us slightly old news."
+    ],
+    "duration": 28.704,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1242692,
+    "sha256": "1b8c6205ce07569985fab7b2ceb387e81e92c959a1e8372680cacfe70ba8f286",
+    "scene_seconds": [
+      6.954,
+      6.498,
+      7.386,
+      7.866
+    ]
+  },
+  {
+    "number": 24,
+    "group": "space",
+    "variant": 3,
+    "title": "The Moon's Wardrobe",
+    "scenes": [
+      "Pip thinks the Moon changes shape every week. Mochi checks whether pieces are falling off.",
+      "The Sun always lights roughly half the Moon. From Earth, we see different portions of that lit half.",
+      "Those changing views create the familiar lunar phases. Earth's shadow is involved in lunar eclipses, not ordinary phases.",
+      "The Moon keeps its shape. Our viewing angle changes the bright shape we see in the sky."
+    ],
+    "duration": 30.456,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1382029,
+    "sha256": "c624c1ebb4d7570d4d583b62a4a7cfba7d5f70ba5b02955a56176e4eb3b331b4",
+    "scene_seconds": [
+      6.834,
+      7.17,
+      9.546,
+      6.906
+    ]
+  },
+  {
+    "number": 25,
+    "group": "space",
+    "variant": 4,
+    "title": "The Tail That Pushed",
+    "scenes": [
+      "Mochi's rocket cannot push against empty space. Pip wonders whether it needs a wall behind it.",
+      "A rocket throws exhaust backward. The exhaust pushes the rocket forward in response.",
+      "This exchange of momentum works in a vacuum. The rocket carries the material it needs to throw away.",
+      "A rocket does not need air to push against. Sending mass one way can send the rocket the other way."
+    ],
+    "duration": 28.992,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1218382,
+    "sha256": "39e8c15e023585ab10f915348f6ade315252a67acddbca16dd18621b0850016c",
+    "scene_seconds": [
+      7.314,
+      6.93,
+      7.386,
+      7.362
+    ]
+  },
+  {
+    "number": 26,
+    "group": "space",
+    "variant": 5,
+    "title": "The Blue Planet's Blanket",
+    "scenes": [
+      "Pip builds a tiny planet with no atmosphere. The robot soon notices a very different world.",
+      "Earth's atmosphere contains gases that absorb and emit infrared radiation, helping warm the surface.",
+      "This natural greenhouse effect matters for life. Increasing greenhouse gases changes the planet's energy balance.",
+      "A blanket is only an analogy. The real story is about energy moving in and out of Earth's system."
+    ],
+    "duration": 31.536,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1293070,
+    "sha256": "c115a0a78649c7f8c5db288fcf481c46b528512840bbaaa36b76169d3d96b87f",
+    "scene_seconds": [
+      7.242,
+      7.914,
+      8.538,
+      7.842
+    ]
+  },
+  {
+    "number": 27,
+    "group": "space",
+    "variant": 6,
+    "title": "The Star's Kitchen",
+    "scenes": [
+      "Mochi thinks stars burn wooden fuel. Pip looks for a forest inside the Sun and finds none.",
+      "The Sun's energy mainly comes from nuclear fusion in its core, where hydrogen becomes helium.",
+      "A small amount of mass becomes energy. That energy eventually escapes into space as radiation.",
+      "A star is not a giant campfire. Its power comes from changes inside atomic nuclei, under extraordinary conditions."
+    ],
+    "duration": 32.328,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1474803,
+    "sha256": "b8f6e6a064d3dc88af3c3d4481d46af5488a1034ac03a5d4b60c7abb5d90bb37",
+    "scene_seconds": [
+      7.386,
+      7.338,
+      7.722,
+      9.882
+    ]
+  },
+  {
+    "number": 28,
+    "group": "space",
+    "variant": 7,
+    "title": "The Planet Without a Floor",
+    "scenes": [
+      "Pip packs hiking boots for Jupiter. Mochi asks exactly where the robot plans to stand.",
+      "Jupiter is a giant planet made mostly of hydrogen and helium, with deeper layers under enormous pressure.",
+      "It has no solid surface like Earth's ground. Its visible clouds are only the outer part.",
+      "A planet does not have to be rocky. Before packing your boots, ask what kind of world you are visiting."
+    ],
+    "duration": 29.952,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1118685,
+    "sha256": "9f263dcf2d822ccf1fc63e91ba7520527d41674b0261d4b22f4fa6031b851ec9",
+    "scene_seconds": [
+      7.17,
+      8.058,
+      6.81,
+      7.914
+    ]
+  },
+  {
+    "number": 29,
+    "group": "space",
+    "variant": 8,
+    "title": "The Quiet Explosion",
+    "scenes": [
+      "Mochi watches a space film and hears a huge explosion. Pip carries a microphone into a vacuum.",
+      "Sound needs matter to carry its vibrations. In a vacuum, ordinary sound cannot travel between separated objects.",
+      "Light can cross that empty space, so an observer could see an explosion without hearing it through the vacuum.",
+      "Space can be visually dramatic and acoustically silent. A soundtrack is not always a physics lesson."
+    ],
+    "duration": 32.448,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1219260,
+    "sha256": "aa6b8215a0d379557e7864f7c6d22ef7567f829535e061c75f72769c13beafdb",
+    "scene_seconds": [
+      7.674,
+      9.234,
+      7.746,
+      7.794
+    ]
+  },
+  {
+    "number": 30,
+    "group": "space",
+    "variant": 9,
+    "title": "The Shadow Appointment",
+    "scenes": [
+      "Pip wants to schedule a solar eclipse every month. Mochi notices that most new moons miss the Sun.",
+      "The Moon's orbit is tilted relative to Earth's path around the Sun, so the alignment usually misses.",
+      "A solar eclipse happens when the Moon passes between Earth and the Sun in the right alignment.",
+      "The ingredients meet often, but the geometry must be right. An eclipse is a very particular shadow appointment."
+    ],
+    "duration": 29.928,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1368519,
+    "sha256": "5b14cf917136d9ac03a6de5a1b51989fd65ee59a400bc6713cce946e7367b00a",
+    "scene_seconds": [
+      7.578,
+      7.65,
+      6.594,
+      8.106
+    ]
+  },
+  {
+    "number": 31,
+    "group": "nature",
+    "variant": 0,
+    "title": "The Seed's Packed Lunch",
+    "scenes": [
+      "Mochi plants a seed in darkness and wonders how its first shoot can grow before making leaves.",
+      "Many seeds contain stored food that supports early growth after germination begins.",
+      "Suitable moisture, temperature, and often oxygen matter. The exact conditions depend on the plant species.",
+      "A seed carries a starting supply, not an unlimited lunch. Once leaves develop, light becomes central to its future growth."
+    ],
+    "duration": 31.848,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1451772,
+    "sha256": "7a5623503b5c1f2afbf8ce938afc6cb212442a57407373843b15dd6a9ceafadb",
+    "scene_seconds": [
+      7.146,
+      6.858,
+      8.49,
+      9.354
+    ]
+  },
+  {
+    "number": 32,
+    "group": "nature",
+    "variant": 1,
+    "title": "The Leaf's Sun Kitchen",
+    "scenes": [
+      "Pip offers a plant a bowl of soil for lunch. Mochi points at its green leaves instead.",
+      "During photosynthesis, plants use light energy to help make sugars from carbon dioxide and water.",
+      "Soil can supply water and mineral nutrients, but most of a plant's carbon comes from carbon dioxide.",
+      "A leaf is a tiny solar kitchen. The ingredients arrive from both the air and the roots."
+    ],
+    "duration": 29.496,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1390139,
+    "sha256": "b95a74c40beea6e6d74140b663688868126a5ee4ae570213c423ff6fa096485c",
+    "scene_seconds": [
+      6.93,
+      7.986,
+      7.818,
+      6.762
+    ]
+  },
+  {
+    "number": 33,
+    "group": "nature",
+    "variant": 2,
+    "title": "The Flower Delivery",
+    "scenes": [
+      "Mochi sees a bee leaving one flower and landing on another. Pip thinks it is simply sightseeing.",
+      "As bees visit flowers, pollen can stick to their bodies and travel to another flower.",
+      "Moving suitable pollen helps many flowering plants reproduce. Different plants use different pollinators or other methods.",
+      "The bee seeks food, while the flower may gain a delivery service. Nature often links two different needs."
+    ],
+    "duration": 31.632,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1322749,
+    "sha256": "3cfdbb8a8e97f0c294e55ad2a38340e607fd4398e650b88470098bc4bf052b9c",
+    "scene_seconds": [
+      7.41,
+      6.81,
+      8.97,
+      8.442
+    ]
+  },
+  {
+    "number": 34,
+    "group": "nature",
+    "variant": 3,
+    "title": "The Underground Straw",
+    "scenes": [
+      "Pip waters a plant's leaves but forgets its dry soil. Mochi looks below the surface for the problem.",
+      "Roots absorb water and minerals. Water can then move through the plant's water-conducting tissues.",
+      "Evaporation from leaves helps pull water upward through a connected column, alongside other effects.",
+      "The visible leaves tell only part of the story. A healthy plant depends on what happens underground too."
+    ],
+    "duration": 30.48,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1383220,
+    "sha256": "e745b0e9e0744f48fa6b5b3ad89a78c528a5f37e29f51ef6ddaed683343f49d0",
+    "scene_seconds": [
+      7.722,
+      7.338,
+      7.818,
+      7.602
+    ]
+  },
+  {
+    "number": 35,
+    "group": "nature",
+    "variant": 4,
+    "title": "The Forest Clean-up Crew",
+    "scenes": [
+      "Mochi sees fallen leaves piling up and asks why forests are not buried under endless old plants.",
+      "Fungi, bacteria, and other decomposers break down dead material, releasing nutrients into the ecosystem.",
+      "Decomposition takes time and depends on conditions such as temperature and moisture.",
+      "The forest has no rubbish truck. Its clean-up crew turns yesterday's living things into resources for tomorrow."
+    ],
+    "duration": 31.056,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1207286,
+    "sha256": "38244f7277122420ebd593b8f6501ffe12dbdc146f2e53b832639311b7f66bec",
+    "scene_seconds": [
+      7.698,
+      8.682,
+      6.642,
+      8.034
+    ]
+  },
+  {
+    "number": 36,
+    "group": "nature",
+    "variant": 5,
+    "title": "The Beaver's New Neighbours",
+    "scenes": [
+      "Pip notices a beaver building a dam. Soon the surrounding water and habitats begin to change.",
+      "Beaver dams can slow flowing water and create wetlands, affecting many other organisms.",
+      "These changes can benefit some species and cause problems in particular locations. Ecosystems contain real tradeoffs.",
+      "One animal's building project can reshape a landscape. A habitat is something living things help create, not just occupy."
+    ],
+    "duration": 33.864,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1540496,
+    "sha256": "4ac4abe11f0de026f55b9828aae9ec7e838873a7b9c7027768d665f46c1e1364",
+    "scene_seconds": [
+      7.434,
+      7.194,
+      9.642,
+      9.594
+    ]
+  },
+  {
+    "number": 37,
+    "group": "nature",
+    "variant": 6,
+    "title": "The Camouflage Contest",
+    "scenes": [
+      "Mochi hides a bright toy on a green leaf. Pip spots it instantly, but misses a leaf-shaped insect.",
+      "Camouflage can make an organism harder to detect against its surroundings.",
+      "Predators and prey both use different strategies. A colour that helps in one setting may stand out in another.",
+      "Blending in is a relationship with the background. The best hiding costume depends on where the game is played."
+    ],
+    "duration": 29.328,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1147548,
+    "sha256": "3ecdcd8db2af9b485704cf1d809f31363ca1c68e66e8952d07dd18579ca9da8e",
+    "scene_seconds": [
+      7.674,
+      5.514,
+      8.49,
+      7.65
+    ]
+  },
+  {
+    "number": 38,
+    "group": "nature",
+    "variant": 7,
+    "title": "The Bat's Echo Map",
+    "scenes": [
+      "Pip turns off the lights and loses the path. A little bat keeps flying around the obstacles.",
+      "Many bats emit calls and listen for returning echoes, using them to locate objects and prey.",
+      "The delay and other features of the echo provide information about the surroundings.",
+      "An echo can be more than a repeated sound. For an echolocating bat, it is part of a moving map."
+    ],
+    "duration": 28.32,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1556350,
+    "sha256": "f4337e0849d78d898c64d6a358b5586238e48eb1f5e02a568e80cbe5f395cc98",
+    "scene_seconds": [
+      7.05,
+      7.338,
+      6.234,
+      7.698
+    ]
+  },
+  {
+    "number": 39,
+    "group": "nature",
+    "variant": 8,
+    "title": "The Water-Saving Cactus",
+    "scenes": [
+      "Mochi gives a cactus enormous soft leaves. Pip predicts a difficult day in the hot desert.",
+      "Many cacti store water in fleshy stems and have spines instead of ordinary broad leaves.",
+      "Their surfaces and gas-exchange strategies help reduce water loss, although adaptations vary among species.",
+      "Desert plants are not simply waiting for rain. Their shapes reflect the challenge of keeping precious water."
+    ],
+    "duration": 30.96,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1294966,
+    "sha256": "7e3ef1cc07b6e4ffa5794f87634ec05d68b633f12bcf6c5ba6a9543597040735",
+    "scene_seconds": [
+      7.218,
+      7.41,
+      8.73,
+      7.602
+    ]
+  },
+  {
+    "number": 40,
+    "group": "nature",
+    "variant": 9,
+    "title": "The Web of Lunches",
+    "scenes": [
+      "Pip removes one insect from a toy ecosystem. Mochi notices that several hungry neighbours lose a meal.",
+      "A food web describes feeding relationships among organisms. Many species connect to more than one food source.",
+      "Changes can spread through those connections, although the exact effects depend on the ecosystem.",
+      "Nature is more like a web than a single chain. Tugging one thread can move several others."
+    ],
+    "duration": 30.768,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1180515,
+    "sha256": "7d396ad0ef2f1e7c84fca6cd82c28d52e4186b3264f7685db608d6ef029d280b",
+    "scene_seconds": [
+      8.13,
+      8.778,
+      7.074,
+      6.786
+    ]
+  },
+  {
+    "number": 41,
+    "group": "physics",
+    "variant": 0,
+    "title": "The Spoon's Warm Journey",
+    "scenes": [
+      "Mochi leaves a metal spoon in hot soup. Later, the handle feels warm even above the soup.",
+      "Thermal energy moves through the spoon by conduction, from warmer regions toward cooler ones.",
+      "Different materials transfer thermal energy at different rates. Metal often conducts it much faster than wood.",
+      "The handle did not need to touch the soup. Energy travelled through the connected material to reach it."
+    ],
+    "duration": 29.472,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1149163,
+    "sha256": "a2b3fce5fdef6bffeaf5f5277b9c2e0ea8ea9a18579b124901d3d518295969f5",
+    "scene_seconds": [
+      7.218,
+      7.218,
+      8.082,
+      6.954
+    ]
+  },
+  {
+    "number": 42,
+    "group": "physics",
+    "variant": 1,
+    "title": "The Invisible Push",
+    "scenes": [
+      "Pip rubs a balloon on a jumper, then watches it attract tiny pieces of paper.",
+      "Rubbing can transfer electric charge between materials. Charged objects can exert forces on nearby matter.",
+      "The paper can be attracted even if its overall charge is neutral, because charges inside it can shift slightly.",
+      "An invisible electric interaction can move visible things. A tiny experiment reveals forces beyond what our eyes can see."
+    ],
+    "duration": 32.184,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1493489,
+    "sha256": "e18c9f68a6c22ac0cb058b590dc4f4732f4089405fa7a8c0d7820b8c6affd70a",
+    "scene_seconds": [
+      6.426,
+      8.394,
+      8.034,
+      9.33
+    ]
+  },
+  {
+    "number": 43,
+    "group": "physics",
+    "variant": 2,
+    "title": "The Mirror's Reply",
+    "scenes": [
+      "Mochi shines a torch at a mirror and tries to catch the reflected beam.",
+      "For a flat mirror, the angle of reflection equals the angle of incidence, measured from the normal.",
+      "The normal is an imaginary line perpendicular to the surface, not a line along the mirror.",
+      "The mirror follows a simple rule. Draw the right reference line and the reflected path becomes easier to predict."
+    ],
+    "duration": 28.68,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1081067,
+    "sha256": "eff0d521199ca822ae34a214a01dba13700d44f4d8a6a711e7a28b68620501fc",
+    "scene_seconds": [
+      5.802,
+      7.338,
+      7.122,
+      8.418
+    ]
+  },
+  {
+    "number": 44,
+    "group": "physics",
+    "variant": 3,
+    "title": "The Heavy Feather Puzzle",
+    "scenes": [
+      "Pip drops a feather and a stone. The stone lands first, so Mochi blames gravity alone.",
+      "In air, drag affects how objects fall. A feather experiences strong resistance relative to its weight.",
+      "Without air resistance, objects dropped together at the same place fall with the same gravitational acceleration.",
+      "A falling race tests more than gravity when air joins in. Remove the extra player before judging the rule."
+    ],
+    "duration": 31.848,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1307374,
+    "sha256": "017400f67e24467bc89ea5ecb7266a8bda2cf38c92cd951453e8d9d7c6e7448d",
+    "scene_seconds": [
+      7.338,
+      8.058,
+      8.322,
+      8.13
+    ]
+  },
+  {
+    "number": 45,
+    "group": "physics",
+    "variant": 4,
+    "title": "The Bending Straw",
+    "scenes": [
+      "Mochi dips a straight straw into water. Suddenly it looks bent at the surface.",
+      "Light changes direction when crossing between materials at an angle, because its speed changes.",
+      "This refraction changes where underwater objects appear to be. The straw itself can remain perfectly straight.",
+      "Our eyes follow arriving light. When the light bends, the picture can fool us about the object's position."
+    ],
+    "duration": 29.568,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1129460,
+    "sha256": "ae9f713305f225d3ba336d36207a3c2896f8c41e8ed640cfb6462779e4393329",
+    "scene_seconds": [
+      6.354,
+      7.266,
+      8.13,
+      7.818
+    ]
+  },
+  {
+    "number": 46,
+    "group": "physics",
+    "variant": 5,
+    "title": "The Magnet's Two Ends",
+    "scenes": [
+      "Pip cuts a pretend magnet in half, hoping to collect a lonely north pole.",
+      "An ordinary bar magnet has north and south poles. Cutting it makes smaller magnets, each with both poles.",
+      "Opposite magnetic poles attract, and matching poles repel. The field continues around each new piece.",
+      "Breaking a magnet does not give you ordinary isolated poles. You have made two smaller partners in the same dance."
+    ],
+    "duration": 30.888,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1176302,
+    "sha256": "ee65dda9adaa3b8a88520df2d5d11977dd30af32e36b44ecfd32a6873a0cd13a",
+    "scene_seconds": [
+      6.186,
+      8.322,
+      8.01,
+      8.37
+    ]
+  },
+  {
+    "number": 47,
+    "group": "physics",
+    "variant": 6,
+    "title": "The Sound Wave Parade",
+    "scenes": [
+      "Mochi hits a drum and imagines bits of air flying all the way across the room.",
+      "Sound is a travelling disturbance. Nearby particles vibrate and pass the disturbance to their neighbours.",
+      "The particles do not need to make the whole journey from the drum to the listener.",
+      "A crowd can pass a wave around a stadium while people stay near their seats. Sound travels by a similar relay."
+    ],
+    "duration": 28.704,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1423446,
+    "sha256": "1d18e5a7363a6bdd71fa37c3196b50fa2667782ab464ac6d89ae390a9fb8ade3",
+    "scene_seconds": [
+      6.21,
+      8.034,
+      5.682,
+      8.778
+    ]
+  },
+  {
+    "number": 48,
+    "group": "physics",
+    "variant": 7,
+    "title": "The Lever's Bargain",
+    "scenes": [
+      "Pip cannot lift a heavy box. Mochi brings a long bar and puts a pivot beneath it.",
+      "A lever can trade a larger movement over a longer distance for a greater force over a shorter distance.",
+      "The arrangement of the load, effort, and pivot determines the mechanical advantage.",
+      "The lever does not create free energy. It changes the terms of the job so a small worker can do it."
+    ],
+    "duration": 28.824,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1237274,
+    "sha256": "5c97459069e258ee5a6d20046e427d82a5b811bbd57a570ed2f0ff9e9f0a4034",
+    "scene_seconds": [
+      6.738,
+      7.65,
+      6.498,
+      7.938
+    ]
+  },
+  {
+    "number": 49,
+    "group": "physics",
+    "variant": 8,
+    "title": "The Floating Clay Boat",
+    "scenes": [
+      "Mochi drops a clay ball into water. It sinks. Pip reshapes the same clay into a wide boat.",
+      "Water exerts an upward buoyant force related to the weight of displaced water.",
+      "The boat shape can displace more water before filling or sinking. Average density and shape both matter.",
+      "Floating is not decided by the material's name alone. The space an object occupies changes the water it pushes aside."
+    ],
+    "duration": 30.84,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1240311,
+    "sha256": "cb984aea11ace2f6073ef64e6681e98052110f271d03fe58b267990dd88fbf1d",
+    "scene_seconds": [
+      8.01,
+      6.138,
+      7.842,
+      8.85
+    ]
+  },
+  {
+    "number": 50,
+    "group": "physics",
+    "variant": 9,
+    "title": "The Braking Skateboard",
+    "scenes": [
+      "Pip rolls along a smooth path, then hits a rough patch and slows down.",
+      "Friction opposes relative sliding or the tendency to slide between contacting surfaces.",
+      "It can turn organised motion into thermal energy. It also helps shoes grip and brakes stop wheels.",
+      "Friction is not simply an enemy of motion. The same interaction that slows a skateboard helps its rider stand safely."
+    ],
+    "duration": 30,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1264808,
+    "sha256": "187c779660b9aa765c22dfe00becb398201781ac4edfd4c32f23ae2a1e53e83a",
+    "scene_seconds": [
+      5.922,
+      7.194,
+      7.698,
+      9.186
+    ]
+  },
+  {
+    "number": 51,
+    "group": "water",
+    "variant": 0,
+    "title": "The Cloud's Suitcase",
+    "scenes": [
+      "Mochi sees water vanish from a puddle and thinks the Sun has destroyed it.",
+      "Liquid water can evaporate into water vapour, an invisible gas in the air.",
+      "When moist air cools enough, water can condense into tiny droplets or ice crystals that form clouds.",
+      "The water changes form and location. The sky is part of a continuing journey, not a place where water disappears."
+    ],
+    "duration": 29.232,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1150648,
+    "sha256": "e95cb623583a9f994ad172cd2cef890f8caada8b8dcb7f80ea64502a36b65a2e",
+    "scene_seconds": [
+      5.874,
+      6.306,
+      7.938,
+      9.114
+    ]
+  },
+  {
+    "number": 52,
+    "group": "water",
+    "variant": 1,
+    "title": "The Cold Glass Mystery",
+    "scenes": [
+      "Pip fills a glass with icy water. Soon drops appear outside, although the glass has no leak.",
+      "Water vapour in the surrounding air can condense on the cold surface.",
+      "The droplets outside usually come from the air, not through the glass from the drink.",
+      "A cold surface can reveal invisible moisture. Sometimes the answer to a wet mystery is floating all around you."
+    ],
+    "duration": 28.008,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1102437,
+    "sha256": "52020b0d5cfa42ad67d5468f42263fe16ccbca959eaa3bb7f67500a5a10c7eb9",
+    "scene_seconds": [
+      7.434,
+      5.562,
+      6.306,
+      8.706
+    ]
+  },
+  {
+    "number": 53,
+    "group": "water",
+    "variant": 2,
+    "title": "The Ice Boat",
+    "scenes": [
+      "Mochi watches ice float and asks why frozen water does not simply sink to the bottom.",
+      "Ordinary ice is less dense than liquid water because its molecular structure holds molecules farther apart.",
+      "That lower density lets ice float in liquid water under familiar conditions.",
+      "Freezing changes more than temperature. The arrangement of molecules helps explain a winter pond's floating roof."
+    ],
+    "duration": 29.208,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1145396,
+    "sha256": "74c77ac603188d44a8c25f079b93967d8c395fac1a61ca154cfa78a6cc0f0aa7",
+    "scene_seconds": [
+      6.714,
+      8.034,
+      6.306,
+      8.154
+    ]
+  },
+  {
+    "number": 54,
+    "group": "water",
+    "variant": 3,
+    "title": "The Raindrop Race",
+    "scenes": [
+      "Pip draws raindrops as tiny pointed teardrops. Mochi checks what falling drops really look like.",
+      "Small raindrops are nearly spherical. Larger falling drops can flatten because of the air flowing around them.",
+      "Very large drops may break apart rather than keep growing into giant falling teardrops.",
+      "A familiar symbol is not always a realistic shape. Air and surface tension sculpt the drops on their way down."
+    ],
+    "duration": 31.248,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1212881,
+    "sha256": "731232b8f9a7e7bc02937750fc1aff36da86e561add9b32fdefee1ecdfd85c2a",
+    "scene_seconds": [
+      7.626,
+      8.586,
+      6.882,
+      8.154
+    ]
+  },
+  {
+    "number": 55,
+    "group": "water",
+    "variant": 4,
+    "title": "The Salt That Stayed",
+    "scenes": [
+      "Mochi warms salty water and catches the vapour on a cool lid. Where did the salt go?",
+      "During ordinary evaporation, water leaves as vapour while dissolved salts mostly remain behind.",
+      "Condensing that vapour can produce water with much less salt, the basic idea behind distillation.",
+      "Separation is possible because substances behave differently. But making drinkable water still requires suitable equipment and careful handling."
+    ],
+    "duration": 33.048,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1252060,
+    "sha256": "d1f1618c2534cc3d55e01f822887e1966ebee835ef499e49d0400671ef3107cf",
+    "scene_seconds": [
+      7.146,
+      7.746,
+      7.722,
+      10.434
+    ]
+  },
+  {
+    "number": 56,
+    "group": "water",
+    "variant": 5,
+    "title": "The River's Curved Road",
+    "scenes": [
+      "Pip tries to make a river follow a perfectly straight line. The flowing water keeps shaping bends.",
+      "Moving water can erode material from some places and deposit it elsewhere.",
+      "In many bends, stronger erosion occurs along the outer bank while sediment builds toward the inner bank.",
+      "A river is both traveller and sculptor. Its path and the landscape keep changing each other over time."
+    ],
+    "duration": 28.872,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1136614,
+    "sha256": "a28bb3098f052cace0ef15434f7706cfd85efdfba11fd9e03d32c15c1159a1be",
+    "scene_seconds": [
+      7.482,
+      6.162,
+      7.65,
+      7.578
+    ]
+  },
+  {
+    "number": 57,
+    "group": "water",
+    "variant": 6,
+    "title": "The Hidden Water Table",
+    "scenes": [
+      "Mochi imagines all groundwater inside one enormous underground lake. Pip looks at a sponge instead.",
+      "Much groundwater occupies pores and cracks in soil and rock, rather than a vast open cave.",
+      "The water table marks the upper surface of a saturated zone in the ground.",
+      "There can be water where you see only stone. Tiny connected spaces can store and carry a remarkable amount."
+    ],
+    "duration": 28.824,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1110469,
+    "sha256": "a2b44ddf2790f366237ef946447323221fe32015dbf38cb557b8f5f69cb02603",
+    "scene_seconds": [
+      7.794,
+      7.218,
+      5.826,
+      7.986
+    ]
+  },
+  {
+    "number": 58,
+    "group": "water",
+    "variant": 7,
+    "title": "The Snowflake Workshop",
+    "scenes": [
+      "Pip wants every snowflake to have the same shape. Mochi changes the temperature and humidity.",
+      "Ice crystals grow as water vapour joins their structure. Growth conditions influence their detailed shapes.",
+      "The crystal structure favours sixfold symmetry, while changing conditions create many variations.",
+      "A snowflake records part of its journey through a cloud. Similar building rules can create wonderfully different results."
+    ],
+    "duration": 31.344,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1226849,
+    "sha256": "c815f020909214865f71ef5c4581d61d7ca99de914498ac7990cc74bbf2748f9",
+    "scene_seconds": [
+      7.026,
+      8.01,
+      7.77,
+      8.538
+    ]
+  },
+  {
+    "number": 59,
+    "group": "water",
+    "variant": 8,
+    "title": "The Ocean's Moving Belt",
+    "scenes": [
+      "Mochi pours warm and cold water into a model ocean. Pip notices that density can change the motion.",
+      "Temperature and salinity affect seawater density. Density differences help drive parts of ocean circulation.",
+      "Winds also drive major surface currents. Real ocean movement involves several connected processes.",
+      "The ocean is not a still bowl. Heat, salt, wind, and Earth's rotation help keep its enormous waters moving."
+    ],
+    "duration": 33.552,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1460611,
+    "sha256": "cae88f0deafc45f5bec234e1b5e2e96e4cdb9db5f1fddaae7c91a24781c3d31d",
+    "scene_seconds": [
+      7.986,
+      8.394,
+      7.986,
+      9.186
+    ]
+  },
+  {
+    "number": 60,
+    "group": "water",
+    "variant": 9,
+    "title": "The Rising Tide Clock",
+    "scenes": [
+      "Pip thinks the ocean breathes in and out every day. Mochi invites the Moon into the explanation.",
+      "Differences in the Moon's gravitational pull across Earth help produce tides. The Sun contributes too.",
+      "Coastlines, ocean basins, and local conditions change the timing and height of the tides people see.",
+      "The tide is a local response to a planet-wide interaction. The same sky can produce different shorelines' schedules."
+    ],
+    "duration": 31.344,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1176337,
+    "sha256": "64c1c7dbb0dfec390b42d94d86abb3db58cc765cd26752b36ac2c4aaede917fd",
+    "scene_seconds": [
+      7.218,
+      7.746,
+      7.794,
+      8.586
+    ]
+  },
+  {
+    "number": 61,
+    "group": "logic",
+    "variant": 0,
+    "title": "The Two Ice-Cream Clues",
+    "scenes": [
+      "Mochi notices more ice-cream sales and more swimmers on hot days. Did ice cream push everyone into the sea?",
+      "Two quantities can rise together because a third factor influences both. Here, hot weather is a possible common cause.",
+      "A correlation can suggest a question, but it does not establish that one thing causes the other.",
+      "Before drawing an arrow between two events, look for another explanation that could connect them both."
+    ],
+    "duration": 32.112,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1205514,
+    "sha256": "339eb6a8933db69b82c46b0d13a9677e6ad5d784627d975a7531a3888d3739a5",
+    "scene_seconds": [
+      8.634,
+      9.09,
+      7.194,
+      7.194
+    ]
+  },
+  {
+    "number": 62,
+    "group": "logic",
+    "variant": 1,
+    "title": "The Lucky Coin",
+    "scenes": [
+      "Pip flips five heads in a row. Mochi declares that the next flip must finally be tails.",
+      "For independent fair coin flips, earlier results do not change the probability of the next result.",
+      "The next flip still has equal chances of heads and tails, despite a surprising-looking streak.",
+      "Randomness does not keep a short-term balancing notebook. A streak can be unusual without making the next flip owe us anything."
+    ],
+    "duration": 31.368,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1177206,
+    "sha256": "b84f72686716cb2e9fa3ad200faef4456f2413f9713777d9eec4bfcc72959f01",
+    "scene_seconds": [
+      7.194,
+      7.482,
+      7.266,
+      9.426
+    ]
+  },
+  {
+    "number": 63,
+    "group": "logic",
+    "variant": 2,
+    "title": "The Cropped Photograph",
+    "scenes": [
+      "Mochi sees one corner of a photo and thinks a robot stole the whole cake.",
+      "Pip widens the image. The robot was carrying the cake to the birthday table.",
+      "A claim can change when missing context appears. A true fragment may still support a misleading impression.",
+      "Before judging a clip or screenshot, ask what happened before, what happened after, and what the frame leaves out."
+    ],
+    "duration": 28.416,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1225515,
+    "sha256": "b29411bd69b896c5193a7bb817fd6f6a71e2950459605a47b9ebedf7f0696b8e",
+    "scene_seconds": [
+      6.114,
+      5.898,
+      8.058,
+      8.346
+    ]
+  },
+  {
+    "number": 64,
+    "group": "logic",
+    "variant": 3,
+    "title": "The Test With Two Changes",
+    "scenes": [
+      "Pip gives one plant more light and more water. It grows taller, so Mochi declares that light caused everything.",
+      "When several conditions change together, it is harder to identify which change explains the result.",
+      "A controlled comparison tries to keep other relevant conditions similar while testing a particular difference.",
+      "A good experiment is a carefully asked question. Change fewer things at once so the answer becomes easier to interpret."
+    ],
+    "duration": 32.544,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1666808,
+    "sha256": "8857cae695662b05b98863474410e47790298adfd2717e22a2b480bc6a226829",
+    "scene_seconds": [
+      8.274,
+      7.266,
+      7.986,
+      9.018
+    ]
+  },
+  {
+    "number": 65,
+    "group": "logic",
+    "variant": 4,
+    "title": "The Tiny Opinion Poll",
+    "scenes": [
+      "Mochi asks three friends whether everyone loves robot music. All three agree. Is the whole city convinced?",
+      "A sample can be too small or unrepresentative to support a broad conclusion.",
+      "Who was asked, how they were chosen, and how the question was worded all matter.",
+      "More answers can help, but selection matters too. Asking only your bandmates may still give a distorted picture."
+    ],
+    "duration": 29.088,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1102767,
+    "sha256": "9808064839c98cd802f6781941a23e8cba130e2667f5a41b77c8db873aad86d7",
+    "scene_seconds": [
+      8.346,
+      6.282,
+      6.138,
+      8.322
+    ]
+  },
+  {
+    "number": 66,
+    "group": "logic",
+    "variant": 5,
+    "title": "The Average Monster",
+    "scenes": [
+      "Pip shares a room with one extremely wealthy robot. The average wealth suddenly looks enormous.",
+      "The mean adds values and divides by their count. Extreme values can move it strongly.",
+      "The median is the middle value after sorting. It can tell a different story about a typical member.",
+      "An average is a tool, not the whole picture. Ask which average is being used and what the distribution looks like."
+    ],
+    "duration": 29.88,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1123092,
+    "sha256": "b88210954bc14cdbd7b4ad473ae42572003fe7511b4a148ddd9c794add5f46a8",
+    "scene_seconds": [
+      7.338,
+      6.834,
+      7.074,
+      8.634
+    ]
+  },
+  {
+    "number": 67,
+    "group": "logic",
+    "variant": 6,
+    "title": "The Survivor's Workshop",
+    "scenes": [
+      "Mochi studies only successful inventors and copies their strange hats. Pip looks for the inventors who failed.",
+      "If we examine only survivors or winners, we can miss information about those that did not make it.",
+      "A habit shared by winners may also be common among failures, so it may explain little.",
+      "Success stories can inspire a question. A fair investigation also asks which missing cases would change the answer."
+    ],
+    "duration": 31.704,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1200073,
+    "sha256": "a455c56f7c2fc61a5b0e4ef5b78185893024121f867f0fa97d7e0da732a86d1e",
+    "scene_seconds": [
+      8.37,
+      7.098,
+      6.93,
+      9.306
+    ]
+  },
+  {
+    "number": 68,
+    "group": "logic",
+    "variant": 7,
+    "title": "The Broken Chart Ladder",
+    "scenes": [
+      "Pip draws two bars with slightly different values. Mochi cuts off the bottom and makes the gap look enormous.",
+      "A chart's axis range can change the visual impression of a difference.",
+      "Labels, units, scale, and missing data help determine what a chart actually supports.",
+      "Read the ladder before comparing the heights. A dramatic picture can show a real but much smaller change."
+    ],
+    "duration": 28.92,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1098557,
+    "sha256": "6efe40959d4a87f1373b7d75d9b2321d9042f5e61c90083aa327f0720b276813",
+    "scene_seconds": [
+      8.154,
+      5.634,
+      7.386,
+      7.746
+    ]
+  },
+  {
+    "number": 69,
+    "group": "logic",
+    "variant": 8,
+    "title": "The Opposite Test",
+    "scenes": [
+      "Mochi invents a rule that every shiny rock is metal. Pip brings a shiny piece of glass.",
+      "One clear counterexample can disprove a universal claim, even if many earlier examples seemed to fit.",
+      "That does not make every weaker or related claim false. The exact wording matters.",
+      "Good reasoning tests a rule where it might fail. Looking only for friendly examples makes an idea harder to check."
+    ],
+    "duration": 30.072,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1125777,
+    "sha256": "67b26e12e418159ad506cfaf3edf2b78a2f2512e4c0cc04a28e6965446c7fdfc",
+    "scene_seconds": [
+      7.17,
+      8.13,
+      6.522,
+      8.25
+    ]
+  },
+  {
+    "number": 70,
+    "group": "logic",
+    "variant": 9,
+    "title": "The Confidence Dial",
+    "scenes": [
+      "Pip hears a robot speak very confidently and assumes every answer must be correct.",
+      "Confidence and accuracy are different things. A fluent explanation can still contain errors or unsupported claims.",
+      "Checking evidence, sources, and reasoning matters more than how certain the speaker sounds.",
+      "Turn your trust dial with evidence. A careful answer that admits uncertainty can be more useful than a bold guess."
+    ],
+    "duration": 31.128,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1168686,
+    "sha256": "905a049f4592038286bdd2a18482076230921d0f4e0a4959aed9a0e4742c6523",
+    "scene_seconds": [
+      6.642,
+      8.826,
+      6.93,
+      8.73
+    ]
+  },
+  {
+    "number": 71,
+    "group": "math",
+    "variant": 0,
+    "title": "The Halfway Library",
+    "scenes": [
+      "Mochi searches a sorted shelf one book at a time. Pip opens the book in the middle instead.",
+      "If the target comes earlier, the search keeps the earlier half. Otherwise, it keeps the later half.",
+      "Repeating this halving process is binary search. It requires an ordered collection and suitable access to its middle.",
+      "A smart question can remove many possibilities at once. Organisation turns a long hunt into a few decisions."
+    ],
+    "duration": 32.16,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1228579,
+    "sha256": "07c2c3eb24b05e9e396e893243667e6dbcf205ccdc3abb99d750d4266bdb096f",
+    "scene_seconds": [
+      7.026,
+      7.794,
+      8.658,
+      8.682
+    ]
+  },
+  {
+    "number": 72,
+    "group": "math",
+    "variant": 1,
+    "title": "The Double Rice Puzzle",
+    "scenes": [
+      "Pip puts one grain on a square, then doubles the amount on each new square.",
+      "Doubling creates exponential growth. The increase becomes larger as the starting quantity grows.",
+      "It can look slow at first and then become enormous. The growth rule matters more than the first impression.",
+      "Before trusting your intuition, count a few more steps. Repeated multiplication can outrun an ordinary straight-line guess."
+    ],
+    "duration": 30.408,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1199319,
+    "sha256": "445cc4dae098aa6b01fe7b3ca141440c9cb3d1fe5d939712fcb38b58dd6a0719",
+    "scene_seconds": [
+      6.162,
+      7.242,
+      7.53,
+      9.474
+    ]
+  },
+  {
+    "number": 73,
+    "group": "math",
+    "variant": 2,
+    "title": "The Missing Unit",
+    "scenes": [
+      "Mochi reports that a robot travelled at sixty. Pip cannot tell whether that means fast walking or a rocket.",
+      "A number needs units and context to describe a physical quantity. Metres per second differs from kilometres per hour.",
+      "Conversions preserve the underlying quantity while changing the numerical representation.",
+      "A bare number can hide a big misunderstanding. Carry the unit with the answer, just as a parcel needs its address."
+    ],
+    "duration": 32.256,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1241327,
+    "sha256": "9d5ffbe2edf8f0c633b4536f654a62b60f89084eded90a66ca3aa5f7bf5132f2",
+    "scene_seconds": [
+      8.226,
+      8.874,
+      6.354,
+      8.802
+    ]
+  },
+  {
+    "number": 74,
+    "group": "math",
+    "variant": 3,
+    "title": "The Area Rug",
+    "scenes": [
+      "Pip doubles the width and length of a square rug. Mochi orders only twice as much material.",
+      "Area depends on two dimensions. Doubling both length and width makes the area four times as large.",
+      "Changing a linear size does not change every related quantity by the same factor.",
+      "Draw the new squares before buying the fabric. A small scaling rule can have a surprisingly large consequence."
+    ],
+    "duration": 30.432,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1134281,
+    "sha256": "780072e4557b78bf031c73119ac5c2d50e75205c38c13928fedbd04be224fb3b",
+    "scene_seconds": [
+      7.146,
+      8.442,
+      6.546,
+      8.298
+    ]
+  },
+  {
+    "number": 75,
+    "group": "math",
+    "variant": 4,
+    "title": "The Percentage Trap",
+    "scenes": [
+      "Mochi raises a price by fifty percent, then cuts the new price by fifty percent.",
+      "The second percentage uses a different starting amount. For example, one hundred becomes one hundred fifty, then seventy-five.",
+      "Equal-looking percentage changes do not necessarily cancel when their bases differ.",
+      "Always ask: a percentage of what? The hidden starting value is part of the calculation, not an optional detail."
+    ],
+    "duration": 32.088,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1246185,
+    "sha256": "334d07399501b189e18e67c9ea693b589a41413b24a86b8c779cc95343386810",
+    "scene_seconds": [
+      6.81,
+      9.738,
+      6.546,
+      8.994
+    ]
+  },
+  {
+    "number": 76,
+    "group": "math",
+    "variant": 5,
+    "title": "The Weighted Backpack",
+    "scenes": [
+      "Pip averages two class scores equally, even though one class has ten students and the other has thirty.",
+      "To find the overall student average, class averages must be weighted by the number of students they represent.",
+      "A small group and a large group should not automatically contribute the same amount.",
+      "An average of averages can mislead. Check whether every value stands for the same number of underlying observations."
+    ],
+    "duration": 30.888,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1191719,
+    "sha256": "a22b8beb1712fbadcb598c16dcab422e2a9b43baae533a8d8d1b8cce2add8a32",
+    "scene_seconds": [
+      7.794,
+      7.842,
+      6.234,
+      9.018
+    ]
+  },
+  {
+    "number": 77,
+    "group": "math",
+    "variant": 6,
+    "title": "The Map's Tiny World",
+    "scenes": [
+      "Mochi follows a map and expects one centimetre on paper to mean one centimetre on the road.",
+      "A map scale relates distances in the representation to distances in the real world.",
+      "For a simple scale drawing, multiplying by the scale factor converts a map length into its corresponding real distance.",
+      "A map is useful because it changes size consistently. Read the scale before planning how far your feet must travel."
+    ],
+    "duration": 31.224,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1202433,
+    "sha256": "594af535f5b3c2456cf80e39832054346e43bf3efcd8db5df1da46ae7d26b566",
+    "scene_seconds": [
+      7.434,
+      6.498,
+      8.85,
+      8.442
+    ]
+  },
+  {
+    "number": 78,
+    "group": "math",
+    "variant": 7,
+    "title": "The Pattern Guess",
+    "scenes": [
+      "Pip sees two, four, six, and predicts eight. Mochi asks whether any other rule could fit.",
+      "A short list can be explained by many different rules. A plausible continuation is not automatically the only possible one.",
+      "Extra context or a stated rule makes the problem more specific.",
+      "Patterns are invitations to make hypotheses. To know which hypothesis was intended, we sometimes need more than a few examples."
+    ],
+    "duration": 32.4,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1238793,
+    "sha256": "0a70f15dbbd00b7b75b2eca8db7e0d6d93cf68df611d1b663d284d7bdc79f560",
+    "scene_seconds": [
+      7.818,
+      9.258,
+      5.25,
+      10.074
+    ]
+  },
+  {
+    "number": 79,
+    "group": "math",
+    "variant": 8,
+    "title": "The Probability Garden",
+    "scenes": [
+      "Mochi calls a chance of one in ten impossible. Pip plants ten pretend seeds and watches the surprises.",
+      "A low probability means an event is less likely, not forbidden. Repeated opportunities can make rare events worth considering.",
+      "It also does not guarantee one success in every ten tries. Chance is not a fixed schedule.",
+      "Treat probability as a measure of uncertainty. It helps expectations, but it does not write each individual outcome in advance."
+    ],
+    "duration": 34.92,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1373306,
+    "sha256": "5cc09684d074ef92066cccf47019abc456285c9b07a1340d8fa2f7da4b6d8966",
+    "scene_seconds": [
+      8.202,
+      9.762,
+      7.194,
+      9.762
+    ]
+  },
+  {
+    "number": 80,
+    "group": "math",
+    "variant": 9,
+    "title": "The Rounding Relay",
+    "scenes": [
+      "Pip rounds every little measurement early. By the end, Mochi's carefully planned shelf no longer fits.",
+      "Rounding changes values slightly. Repeating calculations with rounded intermediate values can accumulate error.",
+      "Keeping enough precision until the final result often reduces avoidable differences.",
+      "A tidy number is not always the best working number. Keep useful detail during the journey and round thoughtfully at the end."
+    ],
+    "duration": 31.704,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1230347,
+    "sha256": "a160ff6bf0c947b4477ce714047defcd02e0f1fb02563fdafd21fe7c4d9aaeb3",
+    "scene_seconds": [
+      7.866,
+      8.394,
+      6.378,
+      9.066
+    ]
+  },
+  {
+    "number": 81,
+    "group": "ai",
+    "variant": 0,
+    "title": "The Robot's Guessing Game",
+    "scenes": [
+      "Mochi asks an AI for a story. Pip imagines a tiny librarian choosing a perfect finished answer.",
+      "A language model generates text by using learned patterns to predict possible next tokens in context.",
+      "A token can be a word, part of a word, or another text fragment. Generation continues step by step.",
+      "Fluent text can emerge from this process, but fluency alone does not prove that the answer is true."
+    ],
+    "duration": 32.472,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1615235,
+    "sha256": "a685e42c8d3b1a5431ab369dff7fa4b39a51634be5e24f5d51bcdc9f8652e48f",
+    "scene_seconds": [
+      8.058,
+      8.082,
+      8.706,
+      7.626
+    ]
+  },
+  {
+    "number": 82,
+    "group": "ai",
+    "variant": 1,
+    "title": "The Confident Wrong Door",
+    "scenes": [
+      "Pip asks an AI for a fact it does not know. The answer sounds polished, but points to the wrong door.",
+      "AI systems can produce incorrect or invented details, sometimes called hallucinations.",
+      "Providing relevant sources and checking important claims can reduce mistakes, but no method guarantees every answer.",
+      "Use AI as a helpful participant in the investigation. For important facts, follow the evidence beyond the smooth sentence."
+    ],
+    "duration": 33.072,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1539202,
+    "sha256": "4e2d119cfaebbd1f500c8adc3c5aaafd5b06b398602f84e7ceb6baa3513cb526",
+    "scene_seconds": [
+      7.866,
+      7.29,
+      8.658,
+      9.258
+    ]
+  },
+  {
+    "number": 83,
+    "group": "ai",
+    "variant": 2,
+    "title": "The Example Teacher",
+    "scenes": [
+      "Mochi teaches a robot to recognise fruit using only pictures of red apples.",
+      "A model learns patterns from training examples. Narrow or unrepresentative examples can lead to poor performance elsewhere.",
+      "A green apple or an unfamiliar background may expose what the model actually learned.",
+      "Better examples cover the situations the system will face. Teaching is not just collecting more of the same picture."
+    ],
+    "duration": 30.72,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1440460,
+    "sha256": "1b662be7857469c232990778e7863de6d720dc48675cc57f073c99166446705f",
+    "scene_seconds": [
+      6.474,
+      9.306,
+      6.522,
+      8.418
+    ]
+  },
+  {
+    "number": 84,
+    "group": "ai",
+    "variant": 3,
+    "title": "The Homework Mirror",
+    "scenes": [
+      "Pip trains a model on the practice questions, then celebrates perfect scores on those same questions.",
+      "Performance on familiar training data does not reliably show how well a model will handle new cases.",
+      "Separate evaluation data helps test generalisation. Careful evaluation also checks that training information has not leaked into the test.",
+      "A useful test asks something the learner has not already memorised. Otherwise, the score may mostly measure the mirror."
+    ],
+    "duration": 34.992,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1611661,
+    "sha256": "17ccef57f68dab19671f20c3ba2616ce3329a9473368884eb926f5c80de25e20",
+    "scene_seconds": [
+      7.842,
+      7.626,
+      10.89,
+      8.634
+    ]
+  },
+  {
+    "number": 85,
+    "group": "ai",
+    "variant": 4,
+    "title": "The Prompt With a Map",
+    "scenes": [
+      "Mochi asks for something interesting and gets a vague answer. Pip adds a clear goal and useful background.",
+      "A prompt can specify the task, audience, relevant context, and desired format.",
+      "Examples or constraints can help, but instructions do not give a model knowledge or capabilities it does not have.",
+      "A clear question is a map for the answer. After improving the map, still check where the answer actually goes."
+    ],
+    "duration": 31.656,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1574283,
+    "sha256": "f41b2cb6f8421e4823bed08cd0ecba50162c20c122765af542e0983ee3059a30",
+    "scene_seconds": [
+      7.746,
+      7.074,
+      8.226,
+      8.61
+    ]
+  },
+  {
+    "number": 86,
+    "group": "ai",
+    "variant": 5,
+    "title": "The Search Backpack",
+    "scenes": [
+      "Pip gives an AI a backpack of relevant documents before asking it to explain a topic.",
+      "Retrieval-augmented generation brings selected external information into the model's context for a response.",
+      "Retrieval can help ground an answer, but the documents may be outdated, irrelevant, or misunderstood.",
+      "A source in the backpack is not a guarantee. Check whether the answer's claims really match what the source says."
+    ],
+    "duration": 31.08,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1458091,
+    "sha256": "c6ac426dda434031c89d47d797ca553b3aa90d181cfb37d87bb3c8cb2e1522e7",
+    "scene_seconds": [
+      6.882,
+      8.538,
+      7.842,
+      7.818
+    ]
+  },
+  {
+    "number": 87,
+    "group": "ai",
+    "variant": 6,
+    "title": "The Biased Sorting Hat",
+    "scenes": [
+      "Mochi builds a sorting robot using examples from only one corner of town.",
+      "Data, labels, design choices, and deployment conditions can all contribute to unfair or uneven results.",
+      "Measuring performance across relevant groups can reveal problems hidden by a single overall score.",
+      "A fairer system needs careful questions and ongoing checks. One impressive average cannot describe everyone's experience."
+    ],
+    "duration": 31.92,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1480017,
+    "sha256": "a63688901d553704834cd1bd0004d20932c9c3cff9d8590b21238c31d11e3ffd",
+    "scene_seconds": [
+      6.354,
+      8.778,
+      7.53,
+      9.258
+    ]
+  },
+  {
+    "number": 88,
+    "group": "ai",
+    "variant": 7,
+    "title": "The Picture in Pieces",
+    "scenes": [
+      "Pip zooms into a digital picture and discovers a grid of coloured squares.",
+      "A raster image represents visual information as pixels. Each pixel stores colour information according to an encoding.",
+      "Models can learn relationships between visual patterns and descriptions, but recognition can fail in unfamiliar conditions.",
+      "Seeing a pattern is not the same as understanding everything in a scene. Look closely at what the system actually identified."
+    ],
+    "duration": 33.552,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1558145,
+    "sha256": "baab7fd9c81b9c21be06ae403dc6634d994be0e280f96cc3439e62e53e1e122e",
+    "scene_seconds": [
+      6.042,
+      9.09,
+      9.258,
+      9.162
+    ]
+  },
+  {
+    "number": 89,
+    "group": "ai",
+    "variant": 8,
+    "title": "The Context Suitcase",
+    "scenes": [
+      "Mochi tells a robot a very long story, then wonders why an early detail is missing from the reply.",
+      "A model's context window limits how much input and output it can consider in a single interaction.",
+      "Applications choose what information to include. A long conversation does not necessarily mean every detail is always available.",
+      "Keep essential instructions and facts visible in the current task. Even a large suitcase has a limited capacity."
+    ],
+    "duration": 33.528,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1654160,
+    "sha256": "b95fe21b2bc3634e319da3e21c15c54ced7cae08c067de790d935beceda51cc9",
+    "scene_seconds": [
+      7.794,
+      7.41,
+      9.834,
+      8.49
+    ]
+  },
+  {
+    "number": 90,
+    "group": "ai",
+    "variant": 9,
+    "title": "The Human Checkpoint",
+    "scenes": [
+      "Pip lets an AI draft a bridge explanation. Mochi asks who will check the important engineering claims.",
+      "AI can help brainstorm, summarise, and draft. Responsibility for important decisions still needs appropriate human review.",
+      "The right checks depend on the consequences of an error and the expertise the task requires.",
+      "A useful assistant can speed up work. A sensible checkpoint helps make sure that faster work is also reliable."
+    ],
+    "duration": 33.624,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1552351,
+    "sha256": "88111dc653ebfabfd805be260afb985d7462558ac6aae14c6cda89d3bbc06e43",
+    "scene_seconds": [
+      7.89,
+      9.594,
+      7.146,
+      8.994
+    ]
+  },
+  {
+    "number": 91,
+    "group": "energy",
+    "variant": 0,
+    "title": "The Battery Backpack",
+    "scenes": [
+      "Mochi calls a battery a box of electricity. Pip looks for the process that makes current possible.",
+      "A battery stores energy chemically. Chemical reactions can drive electric charge through a connected circuit.",
+      "Charging a rechargeable battery uses outside energy to reverse some of those chemical changes.",
+      "A battery is a portable energy system. It cannot supply unlimited energy just because its wires form a loop."
+    ],
+    "duration": 31.68,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1241418,
+    "sha256": "fff0546b90935b5a1b9de8d12676461785a066c99eded50396f342ea14671d70",
+    "scene_seconds": [
+      7.482,
+      8.01,
+      7.362,
+      8.826
+    ]
+  },
+  {
+    "number": 92,
+    "group": "energy",
+    "variant": 1,
+    "title": "The Open Circuit",
+    "scenes": [
+      "Pip builds a lamp circuit but leaves a gap. Mochi shakes the battery, and the lamp stays dark.",
+      "For a simple steady current, charge needs a complete conducting path through the circuit.",
+      "Closing the switch completes that path. Opening it interrupts the circuit and stops the lamp's ordinary operation.",
+      "The switch does not create energy. It controls whether the circuit offers a connected route for charge to flow."
+    ],
+    "duration": 30.048,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1168724,
+    "sha256": "8aa5a2b086e6ffe88d929d62dc60dba521d5b9492b2869fceaba480094165c4a",
+    "scene_seconds": [
+      7.122,
+      6.378,
+      8.202,
+      8.346
+    ]
+  },
+  {
+    "number": 93,
+    "group": "energy",
+    "variant": 2,
+    "title": "The Solar Lunch",
+    "scenes": [
+      "Mochi points a solar panel at the sky and waits for it to collect heat like a soup pot.",
+      "Photovoltaic cells convert some incoming light energy into electrical energy.",
+      "Their output depends on factors including light levels, panel orientation, and temperature. They do not work equally well in every condition.",
+      "A solar panel's job is conversion, not creating energy from nothing. Sunshine provides the incoming energy for the system."
+    ],
+    "duration": 33.216,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1340576,
+    "sha256": "ab7b277e9a294d73f5ec249d0757f57408dc71a16271ab78f4043b7091d8f602",
+    "scene_seconds": [
+      6.738,
+      5.994,
+      10.626,
+      9.858
+    ]
+  },
+  {
+    "number": 94,
+    "group": "energy",
+    "variant": 3,
+    "title": "The Windmill's Trade",
+    "scenes": [
+      "Pip builds a wind turbine and wonders whether making it spin faster can create endless power.",
+      "A turbine extracts some energy from moving air. Its blades and generator convert part of that energy into electricity.",
+      "Wind conditions, turbine design, and operating limits affect the output.",
+      "The wind supplies the energy. Clever engineering helps capture some of it while keeping the machine within safe limits."
+    ],
+    "duration": 30.888,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1810474,
+    "sha256": "d1cfe1a035ab7d3929c814b92f9bb0bbb94a1d7bc3f1c4ef5327b1b78ce0ee0f",
+    "scene_seconds": [
+      7.074,
+      8.778,
+      6.138,
+      8.898
+    ]
+  },
+  {
+    "number": 95,
+    "group": "energy",
+    "variant": 4,
+    "title": "The LED's Bright Bargain",
+    "scenes": [
+      "Mochi compares two lamps that give similar useful light. One uses much less electrical power.",
+      "Efficiency compares useful output with input. LEDs can produce useful light with less energy than older incandescent lamps.",
+      "Some energy still becomes heat, and real efficiency depends on the device and conditions.",
+      "Doing the same useful job with less input is an efficiency gain. Brightness and power are related, but they are not identical."
+    ],
+    "duration": 33.864,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1331470,
+    "sha256": "bf1fdb0fadade6f300e774d4acfa5b939a53d242a13338068532048ec4f8b322",
+    "scene_seconds": [
+      7.626,
+      9.714,
+      7.146,
+      9.378
+    ]
+  },
+  {
+    "number": 96,
+    "group": "energy",
+    "variant": 5,
+    "title": "The Insulated House",
+    "scenes": [
+      "Pip heats a tiny house, but warmth keeps escaping. Mochi adds insulation around its walls.",
+      "Insulation reduces the rate of heat transfer. It can help a building stay warm or cool with less energy.",
+      "It does not generate heat or stop every possible loss. Air leaks and windows can matter too.",
+      "The best heater is only part of the story. Keeping useful energy where it is needed can change the whole job."
+    ],
+    "duration": 31.248,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1160519,
+    "sha256": "3f46d13ae6a421253b896042b513ac9d58b70fb75769bb27296d4b93cd932616",
+    "scene_seconds": [
+      7.458,
+      8.322,
+      7.29,
+      8.178
+    ]
+  },
+  {
+    "number": 97,
+    "group": "energy",
+    "variant": 6,
+    "title": "The Regenerating Ride",
+    "scenes": [
+      "Mochi watches an electric vehicle slow down. Pip notices that some energy can return to the battery.",
+      "Regenerative braking uses the motor as a generator, converting some motion energy into electrical energy.",
+      "It cannot recover everything, and ordinary braking may still be needed depending on conditions.",
+      "Slowing down usually spends motion. A regenerative system can save part of that energy for a later journey."
+    ],
+    "duration": 32.112,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1383134,
+    "sha256": "d38759c03a02d89f27eafaea5bd74d76c16150155a952207d4bdb89674c43f52",
+    "scene_seconds": [
+      7.818,
+      8.178,
+      7.434,
+      8.682
+    ]
+  },
+  {
+    "number": 98,
+    "group": "energy",
+    "variant": 7,
+    "title": "The Transformer's Neighbours",
+    "scenes": [
+      "Pip wants to move electrical power a long distance. Mochi worries about energy lost as heat in wires.",
+      "For the same transmitted power, higher voltage allows lower current, which can reduce resistive losses.",
+      "Transformers help change alternating-current voltage levels so electricity can be transmitted and then used appropriately.",
+      "The journey and the destination need different conditions. Power networks change voltage along the way to make both possible."
+    ],
+    "duration": 33.864,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1323825,
+    "sha256": "7248bf28aaa31a4cc0f7d5f768523655692733ddada70f65aeda725d32e2458a",
+    "scene_seconds": [
+      8.322,
+      8.034,
+      8.874,
+      8.634
+    ]
+  },
+  {
+    "number": 99,
+    "group": "energy",
+    "variant": 8,
+    "title": "The Power-Time Mix-up",
+    "scenes": [
+      "Mochi reads a device's watt label and thinks it tells the total energy used all day.",
+      "Power is the rate of energy transfer. Energy use also depends on how long the device operates.",
+      "A low-power device running for many hours can use more energy than a higher-power device running briefly.",
+      "To estimate the energy bill, bring a clock as well as a power label. Rate and total answer different questions."
+    ],
+    "duration": 30.792,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1197205,
+    "sha256": "59f4593d47068e2228d4d651720371a099051201dc5a482ee1d4c0569b854d16",
+    "scene_seconds": [
+      6.738,
+      7.65,
+      7.842,
+      8.562
+    ]
+  },
+  {
+    "number": 100,
+    "group": "energy",
+    "variant": 9,
+    "title": "The Energy Relay",
+    "scenes": [
+      "Pip follows energy from sunlight to a plant, then to food, and finally to a moving robot demonstration.",
+      "Energy can be transferred and transformed between different forms. It is conserved in a closed system.",
+      "In real processes, energy often becomes more spread out, making some of it less useful for the intended job.",
+      "Energy does not disappear when the useful motion stops. Ask where it went and how available it is now."
+    ],
+    "duration": 32.256,
+    "chunks0": 1,
+    "chunks1": 1,
+    "chunks2": 1,
+    "chunks3": 1,
+    "width": 720,
+    "height": 1280,
+    "fps": 20,
+    "bytes": 1471368,
+    "sha256": "151c377f9f6bddfb9019d0ecaee389c20e64079aafc5c981853abef9749803c1",
+    "scene_seconds": [
+      8.418,
+      7.674,
+      8.346,
+      7.818
+    ]
+  }
+]
